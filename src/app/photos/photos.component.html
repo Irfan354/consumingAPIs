@@ -1,0 +1,12 @@
+<table class="table">
+        <tr>
+            <th>albumId</th>
+            <th>id</th>
+            <th>title</th>
+        </tr>
+        <tr *ngFor='let data of photos'>
+            <td>{{data.albumId}}</td>
+            <td>{{data.id}}</td>
+            <td>{{data.title}}</td>
+        </tr>
+</table>
